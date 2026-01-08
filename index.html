@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Data | Miguel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="container-fluid">
+        <div class="aire"></div>
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <form class="card-body">
+                        <label for="txt_names" class="form-label">Nombres</label>
+                        <input type="text" id="txt_names" class="form-control">
+                        <br>
+                        <label for="txt_lastnames" class="form-label">Apellidos</label>
+                        <input type="text" id="txt_lastnames" class="form-control">
+                        <br>
+                        <a href="#" class="btn btn-primary" id="save">Guardar</a>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="tablita">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Nombres</th>
+                            <th scope="col">Apellidos</th>
+                            <th scope="col">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-group-divider" id="table_body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
